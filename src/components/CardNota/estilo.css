@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .card-nota_texto {
@@ -25,14 +26,30 @@
   .card-nota_titulo {
     font-size: 1.2em;
     margin-right: 12px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   h3 {
     color: dimgray;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   p{
     color: gray;
+  }
+
+  .div-delete-titulo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .img-svg-delete{
+    padding-bottom: 0.5rem;
+    fill: gray;
   }
