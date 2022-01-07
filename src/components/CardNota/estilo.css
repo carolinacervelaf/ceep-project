@@ -44,12 +44,18 @@
 
   .div-delete-titulo{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
   .img-svg-delete{
     padding-bottom: 0.5rem;
+    margin-right: 0.5rem;
     fill: gray;
+  }
+
+  h4{
+    color: rgba(128, 128, 128, 0.468);
+    font-size: 0.78rem;
   }
