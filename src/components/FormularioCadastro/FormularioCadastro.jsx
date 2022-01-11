@@ -50,7 +50,7 @@ class FormularioCadastro extends Component {
                 <form className='form-cadastro' onSubmit={this.criarNota.bind(this)}>
                     <select onChange={this.handleMudancaCategoria.bind(this)} className='form-cadastro_input'>
                         <option>Sem Categoria</option>
-                        {this.state.categorias.map((categoria, index) => { return (<opiton key={index}>{categoria}</opiton>) })};
+                        {this.state.categorias.map((categoria, index) => { return (<option key={index}>{categoria}</option>) })};
                     </select>
                     <input type="text" placeholder='Título' className='form-cadastro_input' onChange={this.handleMudancaTitulo.bind(this)} />
                     <textarea rows={15} placeholder='Escreva sua nota...' className='form-cadastro_input' onChange={this.handleMudancaTexto.bind(this)}></textarea>
